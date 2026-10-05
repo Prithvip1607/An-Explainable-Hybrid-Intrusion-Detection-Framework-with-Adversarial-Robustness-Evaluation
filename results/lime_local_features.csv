@@ -1,0 +1,11 @@
+feature_condition,lime_weight
+Destination Port <= -0.37,0.08232043088986495
+-0.13 < Init_Win_bytes_backward <= -0.13,0.02980762168330038
+Bwd Packet Length Std > 0.76,0.012947566029055798
+Min Packet Length <= -0.25,-0.012305058033849398
+-0.41 < min_seg_size_forward <= 0.76,0.011270679519412331
+-0.08 < Total Length of Bwd Packets <= 0.09,0.009025691468659983
+Idle Min > -0.22,0.008344841087110333
+-0.10 < act_data_pkt_fwd <= -0.06,0.008049577987862369
+-0.73 < Packet Length Std <= 0.80,0.007961679687595482
+SYN Flag Count <= -0.22,-0.006955744196418769

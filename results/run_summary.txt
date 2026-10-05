@@ -1,0 +1,23 @@
+dataset_files: ['Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv', 'Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv', 'Friday-WorkingHours-Morning.pcap_ISCX.csv', 'Monday-WorkingHours.pcap_ISCX.csv', 'Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv', 'Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv', 'Tuesday-WorkingHours.pcap_ISCX.csv', 'Wednesday-workingHours.pcap_ISCX.csv']
+sampled_rows_before_cleaning: 159616
+clean_rows: 144092
+train_rows: 91858
+validation_rows: 16211
+test_rows: 36023
+features: 68
+max_per_original_class: 30000
+device: cpu
+seed: 42
+epochs: 8
+validation_size: 0.15
+adaptive_threshold_max_fpr: 0.01
+hybrid_rf_weight: 0.8
+hybrid_cnn_weight: 0.19999999999999996
+hybrid_threshold: 0.32499999999999996
+fgsm_epsilon: 0.03
+pgd_epsilon: 0.03
+pgd_alpha: 0.0075
+pgd_steps: 5
+multiclass: {'status': 'completed', 'classes': ['DDoS', 'BENIGN', 'PortScan', 'DoS Hulk', 'DoS GoldenEye', 'FTP-Patator', 'DoS slowloris', 'DoS Slowhttptest', 'SSH-Patator', 'Bot', 'Web Attack � Brute Force'], 'samples': 143372, 'macro_f1': 0.9939398561764743, 'weighted_f1': 0.9977601225329035}
+runtime_minutes: 6.55
+note: All reported metrics are generated from the local CICIDS2017 data and the sampling/evaluation settings recorded here. No synthetic results are produced by the pipeline.

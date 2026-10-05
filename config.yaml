@@ -1,0 +1,21 @@
+# Reference configuration. run_pipeline.py exposes these as command-line options.
+seed: 42
+max_per_class: 30000
+validation_size: 0.15
+test_size: 0.25
+max_fpr: 0.01
+batch_size: 512
+epochs: 8
+adv_epochs: 5
+learning_rate: 0.001
+weight_decay: 0.00001
+rf_estimators: 250
+cnn_hidden: 128
+fgsm_epsilon: 0.03
+pgd_epsilon: 0.03
+pgd_alpha: 0.0075
+pgd_steps: 5
+max_adv_samples: 4000
+max_adv_train: 8000
+max_xai_samples: 100
+min_multiclass_samples: 1000

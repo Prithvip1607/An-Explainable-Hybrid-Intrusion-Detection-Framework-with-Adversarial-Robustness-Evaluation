@@ -1,0 +1,61 @@
+# .venv/
+# __pycache__/
+# *.pyc
+# .DS_Store
+# .ipynb_checkpoints/
+
+# # Dataset / generated data
+# data/raw/*.zip
+# data/raw/**/*.csv
+# data/processed/*.csv
+
+# # Trained models and generated outputs
+# models/*.joblib
+# models/*.pt
+# results/*
+# !results/README.txt
+
+# # Local notebook checkpoints
+# *.log
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# CICIDS2017 Dataset
+# =========================
+data/raw/
+data/processed/*.csv
+data/processed/*.npy
+
+# =========================
+# Backup files
+# =========================
+results_backup/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+*.tmp

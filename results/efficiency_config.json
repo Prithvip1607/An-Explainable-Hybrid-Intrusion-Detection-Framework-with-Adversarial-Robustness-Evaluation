@@ -1,0 +1,8 @@
+{
+  "rf_n_estimators": 250,
+  "cnn_epochs": 8,
+  "adv_epochs": 5,
+  "adv_eval_samples": 4000,
+  "xai_samples": 100,
+  "device": "cpu"
+}

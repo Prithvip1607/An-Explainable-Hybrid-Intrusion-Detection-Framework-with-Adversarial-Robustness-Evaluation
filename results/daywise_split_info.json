@@ -1,0 +1,13 @@
+{
+  "test_sources": [
+    "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+    "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+    "Friday-WorkingHours-Morning.pcap_ISCX.csv"
+  ],
+  "test_rows": 62770,
+  "test_benign": 37120,
+  "test_attack": 25650,
+  "train_rows": 133085,
+  "validation_rows": 23486,
+  "note": "Whole CICIDS2017 weekday/capture group held out; scaler and model selection use training/validation data only."
+}
